@@ -13,6 +13,7 @@
 		7F7D745C1BA15B3E0013A21F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7F7D745B1BA15B3E0013A21F /* Images.xcassets */; };
 		7F7D745F1BA15B3E0013A21F /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7F7D745D1BA15B3E0013A21F /* LaunchScreen.xib */; };
 		7F7D746B1BA15B3E0013A21F /* HzPlayingViewDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F7D746A1BA15B3E0013A21F /* HzPlayingViewDemoTests.swift */; };
+		7F7D74751BA1680A0013A21F /* HZPlayingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F7D74741BA1680A0013A21F /* HZPlayingView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		7F7D74641BA15B3E0013A21F /* HzPlayingViewDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HzPlayingViewDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7F7D74691BA15B3E0013A21F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7F7D746A1BA15B3E0013A21F /* HzPlayingViewDemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HzPlayingViewDemoTests.swift; sourceTree = "<group>"; };
+		7F7D74741BA1680A0013A21F /* HZPlayingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HZPlayingView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +81,7 @@
 			children = (
 				7F7D74541BA15B3E0013A21F /* AppDelegate.swift */,
 				7F7D74561BA15B3E0013A21F /* ViewController.swift */,
+				7F7D74741BA1680A0013A21F /* HZPlayingView.swift */,
 				7F7D74581BA15B3E0013A21F /* Main.storyboard */,
 				7F7D745B1BA15B3E0013A21F /* Images.xcassets */,
 				7F7D745D1BA15B3E0013A21F /* LaunchScreen.xib */,
@@ -212,6 +215,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7F7D74751BA1680A0013A21F /* HZPlayingView.swift in Sources */,
 				7F7D74571BA15B3E0013A21F /* ViewController.swift in Sources */,
 				7F7D74551BA15B3E0013A21F /* AppDelegate.swift in Sources */,
 			);
@@ -409,6 +413,7 @@
 				7F7D74701BA15B3E0013A21F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7F7D74711BA15B3E0013A21F /* Build configuration list for PBXNativeTarget "HzPlayingViewDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -417,6 +422,7 @@
 				7F7D74731BA15B3E0013A21F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
